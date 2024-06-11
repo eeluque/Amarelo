@@ -3,6 +3,10 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const mailchimp = require("@mailchimp/mailchimp_marketing");
 const { response } = require("express");
+const dotenv = require('dotenv')
+dotenv.config();
+
+
 
 const app = express();
 app.use(express.static("public"));
@@ -18,8 +22,8 @@ app.get("/", function (req, res) {
 
 app.post("/", function (req, res) {
   mailchimp.setConfig({
-    apiKey: "f64799ed769a06e959399e523eebd28f",
-    server: "us21",
+    apiKey: process.env.API_KEY,
+    server: process.env.SERVER
   });
 
   const listId = "a134b1d466";
