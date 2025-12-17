@@ -39,7 +39,7 @@ While working on Amarelo, I gained hands-on experience with:
   * Protecting API keys using `.env.local`
   * Understanding the difference between local and production environments
 
-* **Deployment with Vercel**
+* **Deployment with Render**
 
   * Environment variable configuration
   * Production builds and previews
@@ -51,7 +51,7 @@ While working on Amarelo, I gained hands-on experience with:
 * **NodeJS
 * **Express
 * **Mailchimp API**
-* **Vercel**
+* **Render**
 
 ---
 
@@ -95,7 +95,7 @@ Durante el desarrollo de Amarelo aprendí:
   * Protección de credenciales sensibles
   * Diferencias entre entorno local y producción
     
-* **Despliegue con Vercel**
+* **Despliegue con Render**
 
   * Configuración de variables de entorno
   * Builds y despliegues automáticos
@@ -107,6 +107,6 @@ Durante el desarrollo de Amarelo aprendí:
 * **NodeJS
 * **Express
 * **Mailchimp API**
-* **Vercel**
+* **Render**
 
 ---
